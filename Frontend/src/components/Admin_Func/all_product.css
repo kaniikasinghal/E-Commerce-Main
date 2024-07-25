@@ -1,0 +1,49 @@
+ 
+.product {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 left; 
+}
+
+.productCard {
+  margin: 10px;
+ 
+  /* float: right; */
+}
+ 
+.product {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.productCard {
+  margin: 10px;
+  width: 30%;
+  float: right;
+}
+ 
+.product {
+  flex-wrap: wrap;
+}
+.card-description{
+ 
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+  
+}
+
+.all-card-description{
+
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
+
+}
+
+

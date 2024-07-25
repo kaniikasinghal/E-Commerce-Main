@@ -1,0 +1,10 @@
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(auto,3);
+  flex-wrap: wrap;
+}
+
+.product-item {
+  flex: 0 0 calc(33.33% - 20px);  
+  margin: 10px;
+}

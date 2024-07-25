@@ -1,0 +1,75 @@
+/* Signup.css */
+
+/* Form container styles */
+.signup-modal-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.signup-form-container {
+  padding: 20px; /* Add padding around the form */
+  border: 4px solid   lightcyan; /* Add colored border */
+  border-radius: 12px; /* Add border radius for a rounded look */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Add box shadow for a nice effect */
+  max-width: 400px; /* Set a maximum width for the form container */
+  margin: 0 auto; /* Center the form horizontally */
+}
+
+/* Form title styles */
+.signup-title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+/* Form input styles */
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Error message styles */
+.message {
+  color: #f00;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+/* Submit button styles */
+.btn-primary {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+/* Center align text styles */
+.text-center {
+  text-align: center;
+}
+
+/* Hyperlink styles */
+.text-center a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.text-center a:hover {
+  text-decoration: underline;
+}

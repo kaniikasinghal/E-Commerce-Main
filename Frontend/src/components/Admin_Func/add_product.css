@@ -1,0 +1,77 @@
+ 
+.add-product-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5% 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.add-product-form {
+  width: 80%;
+  max-width: 500px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.add-product-form:hover {
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+}
+ 
+.form-group {
+  margin-bottom: 20px;
+}
+
+.beautiful-input {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+.beautiful-input:hover,
+.beautiful-input:focus {
+  border-color: #3498db;
+  background-color: #ffffff;
+}
+
+ 
+.select-category {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+.select-category:hover,
+.select-category:focus {
+  border-color: #3498db;
+  background-color: #ffffff;
+}
+ 
+.add-button {
+  background-color: #3498db;
+  color: #ffffff;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-button:hover {
+  background-color: #2980b9;
+}

@@ -1,0 +1,121 @@
+/* Updated CSS for User Dashboard */
+.product-container {
+  display: flex;
+  margin: 20px;
+  gap: 30px; /* Increased gap between cards */
+}
+
+.filter-container {
+  flex: 0 0 20%;
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.filter-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.filter-item {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.filter-item:hover {
+  background-color: #4285f4;
+  color: white;
+}
+
+.clear-filter {
+  margin-top: 20px;
+  text-align: center;
+  color: #4285f4;
+  cursor: pointer;
+}
+
+.product-list {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Show 2 cards per row */
+  gap: 30px; /* Increased gap between cards */
+}
+
+.product-card {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 240px; /* Reduced card width */
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+}
+
+.product-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.product-title {
+  font-size: 14px; /* Reduced font size */
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.product-description {
+  font-size: 12px; /* Reduced font size */
+  color: #666;
+  margin-top: 5px;
+  flex-grow: 1;
+}
+
+.product-price {
+  font-size: 14px; /* Reduced font size */
+  margin-top: 10px;
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Align buttons vertically */
+  margin-top: 15px;
+}
+
+.action-button {
+  flex: 1;
+  padding: 6px 0; /* Reduced button padding */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.action-button.addToCart {
+  background-color: #007bff;
+  color: white;
+}
+
+.action-button.addToCart:hover {
+  background-color: #0056b3;
+}
+
+.action-button.addToWishlist {
+  background-color: #f2f2f2;
+  color: #666;
+}
+
+.action-button.addToWishlist:hover {
+  background-color: #ddd;
+}
